@@ -23,3 +23,5 @@ jobs:
   dependabot:
     name: '🤖 Dependabot automation'
     uses: ./.github/workflows/dependabot.yml
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}

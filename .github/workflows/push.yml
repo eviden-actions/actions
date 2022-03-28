@@ -19,3 +19,5 @@ jobs:
   release:
     name: '🏷️ Release'
     uses: ./.github/workflows/release.yml
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
