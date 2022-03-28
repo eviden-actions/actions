@@ -1,0 +1,25 @@
+# This is workflow runs on PR
+#
+name: Pull request
+
+# Controls when the action will run.
+on:
+  # Trigger workflow for pull requests.
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  lint-pr:
+    name: '🕵️‍♂️ Lint PR'
+    uses: ./.github/workflows/lint-pr.yml
+
+  lint-code:
+    name: '🕵️‍♂️ Lint code'
+    uses: ./.github/workflows/lint-code.yml
+
+  dependabot:
+    name: '🤖 Dependabot automation'
+    uses: ./.github/workflows/dependabot.yml

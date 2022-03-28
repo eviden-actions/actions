@@ -1,21 +1,17 @@
 {
-	"name": "@atos-actions/template",
-	"description": "Template repository for @ATOS-Actions organization",
+	"name": "@atos-actions/actions",
+	"description": "Repository for reusable actions for the @ATOS-Actions organization",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ATOS-Actions/template.git"
+		"url": "https://github.com/ATOS-Actions/actions.git"
 	},
-	"bugs": "https://github.com/ATOS-Actions/template/issues",
-	"license": "MIT",
+	"bugs": "https://github.com/ATOS-Actions/actions/issues",
 	"private": "true",
 	"version": "1.0.0",
 	"engines": {
 		"node": ">= 16.0.0",
 		"npm": ">= 8.0.0"
 	},
-	"files": [
-		"action.yml"
-	],
 	"scripts": {
 		"start": "echo 'No start script defined for this project'",
 		"build": "echo 'No build script defined for this project'",
