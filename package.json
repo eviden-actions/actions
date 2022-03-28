@@ -7,7 +7,7 @@
 	},
 	"bugs": "https://github.com/ATOS-Actions/actions/issues",
 	"private": "true",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"node": ">= 16.0.0",
 		"npm": ">= 8.0.0"

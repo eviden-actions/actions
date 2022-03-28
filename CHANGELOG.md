@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ATOS-Actions/actions/compare/v1.0.0...v1.0.1) (2022-03-28)
+
+
+### Bug Fixes
+
+* auto versioning major release ([5c5e685](https://github.com/ATOS-Actions/actions/commit/5c5e68584b9d2f487b1e07d975d22213030d34cc))
+
 # 1.0.0 (2022-03-28)
 
 
