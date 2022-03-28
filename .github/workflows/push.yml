@@ -1,0 +1,21 @@
+# This is workflow runs on push
+#
+name: Pull request
+
+# Controls when the action will run.
+on:
+  # Trigger workflow for pull requests.
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  lint-code:
+    name: '🕵️‍♂️ Lint code'
+    uses: ./.github/workflows/lint-code.yml
+
+  release:
+    name: '🏷️ Release'
+    uses: ./.github/workflows/release.yml
