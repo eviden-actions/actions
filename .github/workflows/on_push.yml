@@ -18,6 +18,7 @@ jobs:
 
   release:
     name: '🏷️ Release'
+    needs: [lint-code]
     uses: ./.github/workflows/release.yml
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}

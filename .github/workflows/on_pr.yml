@@ -18,6 +18,7 @@ jobs:
 
   lint-code:
     name: '🕵️‍♂️ Lint code'
+    needs: [lint-pr]
     uses: ./.github/workflows/lint-code.yml
 
   dependabot:
