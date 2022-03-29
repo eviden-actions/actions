@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ATOS-Actions/actions/compare/v1.0.1...v1.0.2) (2022-03-29)
+
+
+### Bug Fixes
+
+* use GH_TOKEN to merge when available ([e977a5a](https://github.com/ATOS-Actions/actions/commit/e977a5ab1fd93fc740be28ade2737aec17ce529a))
+
 ## [1.0.1](https://github.com/ATOS-Actions/actions/compare/v1.0.0...v1.0.1) (2022-03-28)
 
 
