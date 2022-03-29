@@ -1,6 +1,6 @@
 # This is workflow runs on push
 #
-name: Pull request
+name: Push
 
 # Controls when the action will run.
 on:

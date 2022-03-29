@@ -2,7 +2,7 @@
 
 Reusable actions for the ATOS-Actions organization.
 
-[![Release](https://github.com/ATOS-Actions/actions/actions/workflows/release.yml/badge.svg)](https://github.com/ATOS-Actions/actions/actions/workflows/release.yml)
+[![Release](https://github.com/ATOS-Actions/actions/actions/workflows/on_push.yml/badge.svg)](https://github.com/ATOS-Actions/actions/actions/workflows/on_push.yml)
 
 ## Usage
 
