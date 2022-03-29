@@ -7,10 +7,18 @@ Reusable actions for the ATOS-Actions organization.
 ## Usage
 
 ```
-steps:
-- uses: ATOS-Actions/actions/.github/workflows/release@v1
-	secrets:
-  	GH_TOKEN: ${{ secrets.GH_TOKEN  }}
+on:
+  push:
+
+jobs:
+  validate:
+    uses: ATOS-Actions/actions/.github/workflows/lint-code.yml@v1
+
+  release:
+    needs: [validate]
+    uses: ATOS-Actions/actions/.github/workflows/release.yml@v1
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
 ```
 
 ## Actions
