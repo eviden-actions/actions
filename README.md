@@ -1,22 +1,39 @@
-# template
+# Actions
 
-GitHub Actions template rpository
+Reusable actions for the ATOS-Actions organization.
 
-[![Release](https://github.com/ATOS-Actions/template/actions/workflows/release.yml/badge.svg)](https://github.com/ATOS-Actions/template/actions/workflows/release.yml)
-
-## Prerequisites
-
-Define whatever your action needs to run here
+[![Release](https://github.com/ATOS-Actions/actions/actions/workflows/release.yml/badge.svg)](https://github.com/ATOS-Actions/actions/actions/workflows/release.yml)
 
 ## Usage
 
 ```
 steps:
-- uses: ATOS-Actions/template@v1
+- uses: ATOS-Actions/actions/.github/workflows/release@v1
+	secrets:
+  	GH_TOKEN: ${{ secrets.GH_TOKEN  }}
 ```
 
-### Inputs
+## Actions
 
-|    Input     |        Description         | Required |
-| :----------: | :------------------------: | :------: |
-| `repository` | The name of the repository |    No    |
+| Action       | Description                                   | Args |
+| ------------ | --------------------------------------------- | :--: |
+| `dependabot` | Automatically merge and approve dependabot PR | Yes  |
+| `lint-code`  | Check code style and coding guidelines        |  No  |
+| `lint-pr`    | Check PR is matching contributing guidelines  |  No  |
+| `release`    | Release a new version with semantical release | Yes  |
+
+### Dependabot
+
+Arguments for the `dependabot` action:
+
+| Secrets    | Description                               | Required |
+| ---------- | ----------------------------------------- | :------: |
+| `GH_TOKEN` | Add a code owner PT on protected branches |    No    |
+
+### Release
+
+Arguments for the `release` action:
+
+| Secrets    | Description                               | Required |
+| ---------- | ----------------------------------------- | :------: |
+| `GH_TOKEN` | Add a code owner PT on protected branches |    No    |
