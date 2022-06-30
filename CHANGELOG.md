@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ATOS-Actions/actions/compare/v1.0.2...v1.1.0) (2022-06-30)
+
+
+### Bug Fixes
+
+* remove invalid local action version ([53e201a](https://github.com/ATOS-Actions/actions/commit/53e201ae2b45c72c6c249e291160faaaba812709))
+
+
+### Features
+
+* add cancel-workflow action ([30fce26](https://github.com/ATOS-Actions/actions/commit/30fce26fd413ab617c595704f35dd1a5ece9f158))
+
 ## [1.0.2](https://github.com/ATOS-Actions/actions/compare/v1.0.1...v1.0.2) (2022-03-29)
 
 
