@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ATOS-Actions/actions/compare/v1.1.0...v1.2.0) (2022-06-30)
+
+
+### Features
+
+* switch fetch dependabot metadata to major version ([506c251](https://github.com/ATOS-Actions/actions/commit/506c2513cf8f52f3cdb992d65ccc535976de6daf))
+
 # [1.1.0](https://github.com/ATOS-Actions/actions/compare/v1.0.2...v1.1.0) (2022-06-30)
 
 
