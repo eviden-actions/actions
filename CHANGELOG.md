@@ -1,3 +1,15 @@
+## [1.2.1](https://github.com/ATOS-Actions/actions/compare/v1.2.0...v1.2.1) (2022-10-13)
+
+
+### Bug Fixes
+
+* update set-ouput to new environment file ([54ca137](https://github.com/ATOS-Actions/actions/commit/54ca137a8ed1ba7018bb488349649fd0dcd67c62))
+
+
+### Dependencies and Other Build Updates
+
+* release new patch for dependency updates ([309dfcc](https://github.com/ATOS-Actions/actions/commit/309dfcc07be840cf0b37461da7520546b7e3874d))
+
 # [1.2.0](https://github.com/ATOS-Actions/actions/compare/v1.1.0...v1.2.0) (2022-06-30)
 
 
