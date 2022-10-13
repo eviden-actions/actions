@@ -48,7 +48,7 @@ jobs:
           HUSKY: 0 # disable pre-commit hooks
         run: |
           npm run release
-          echo "::set-output name=version::$(npm run env | grep npm_package_version | cut -d '=' -f 2)"
+          echo "version=$(npm run env | grep npm_package_version | cut -d '=' -f 2)" >> $GITHUB_OUTPUT
 
       - name: '🧹 Cleanup workspace'
         uses: ATOS-Actions/clean-self-hosted-runner@v1
