@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/ATOS-Actions/actions/compare/v1.2.1...v1.2.2) (2023-01-16)
+
+
+### Bug Fixes
+
+* use node lts with latest version ([f4133a5](https://github.com/ATOS-Actions/actions/commit/f4133a540aa17bd988a47affac0d89e2fe43e0fa))
+
 ## [1.2.1](https://github.com/ATOS-Actions/actions/compare/v1.2.0...v1.2.1) (2022-10-13)
 
 
