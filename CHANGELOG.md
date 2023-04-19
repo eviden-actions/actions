@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/eviden-actions/actions/compare/v1.2.2...v1.3.0) (2023-04-19)
+
+
+### Features
+
+* rebrand to eviden-actions ([7d549c3](https://github.com/eviden-actions/actions/commit/7d549c37fef81f120f4cd01ad5437a1b5a08b174))
+
 ## [1.2.2](https://github.com/eviden-actions/actions/compare/v1.2.1...v1.2.2) (2023-01-16)
 
 
