@@ -45,4 +45,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }} # GH_TOKEN needed to approve PR as code owner on protected branches
 
       - name: '🧹 Cleanup workspace'
-        uses: ATOS-Actions/clean-self-hosted-runner@v1
+        uses: eviden-actions/clean-self-hosted-runner@v1

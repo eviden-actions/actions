@@ -1,8 +1,8 @@
 # Actions
 
-Reusable actions for the ATOS-Actions organization.
+Reusable actions for the eviden-actions organization.
 
-[![Release](https://github.com/ATOS-Actions/actions/actions/workflows/on_push.yml/badge.svg)](https://github.com/ATOS-Actions/actions/actions/workflows/on_push.yml)
+[![Release](https://github.com/eviden-actions/actions/actions/workflows/on_push.yml/badge.svg)](https://github.com/eviden-actions/actions/actions/workflows/on_push.yml)
 
 ## Usage
 
@@ -12,11 +12,11 @@ on:
 
 jobs:
   validate:
-    uses: ATOS-Actions/actions/.github/workflows/lint-code.yml@v1
+    uses: eviden-actions/actions/.github/workflows/lint-code.yml@v1
 
   release:
     needs: [validate]
-    uses: ATOS-Actions/actions/.github/workflows/release.yml@v1
+    uses: eviden-actions/actions/.github/workflows/release.yml@v1
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}
 ```
