@@ -1,3 +1,10 @@
+## [1.4.0-alpha.1](https://github.com/eviden-actions/actions/compare/v1.3.0...v1.4.0-alpha.1) (2023-12-05)
+
+
+### Features
+
+* optimize workflow ([3f41a21](https://github.com/eviden-actions/actions/commit/3f41a21097771a90b0f054c86ef9d9607b6d9d5c))
+
 ## [1.3.0](https://github.com/eviden-actions/actions/compare/v1.2.2...v1.3.0) (2023-04-19)
 
 
