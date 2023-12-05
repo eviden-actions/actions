@@ -30,4 +30,3 @@ jobs:
   codeql:
     name: '▶️ actions'
     uses: ./.github/workflows/codeql.yml
-    
