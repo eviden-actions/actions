@@ -12,7 +12,7 @@ on:
 jobs:
   codeql:
     name: '🪲 CodeQL'
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-latest
     container: node:lts
     permissions:
       actions: read
