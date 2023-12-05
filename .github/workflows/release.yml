@@ -6,8 +6,7 @@ name: Release
 on:
   workflow_run:
     workflows: [Check]
-    types:
-      - completed
+    types: [completed]
     branches: [main, alpha]
 
 concurrency:
