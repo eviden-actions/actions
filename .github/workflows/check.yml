@@ -19,9 +19,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  pr-lint:
-    name: '▶️ actions'
-    uses: ./.github/workflows/pr-lint.yml
+  pr-lint-action:
+    name: 'Lint Pull request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/pr-lint.yml
 
   npm-lint:
     name: '▶️ actions'
