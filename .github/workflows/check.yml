@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow.name }}_${{ github.head_ref || github.ref || github.run_id }}
+  group: ${{ github.workflow }}_${{ github.head_ref || github.ref || github.run_id }}
   cancel-in-progress: true
 
 jobs:
