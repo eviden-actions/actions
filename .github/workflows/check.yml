@@ -26,3 +26,8 @@ jobs:
   npm-lint:
     name: '▶️ actions'
     uses: ./.github/workflows/npm-lint.yml
+
+  codeql:
+    name: '▶️ actions'
+    uses: ./.github/workflows/codeql.yml
+    
