@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  pr-lint-action:
+  pr-lint:
     name: 'Lint Pull request'
     runs-on: ubuntu-latest
     steps:
