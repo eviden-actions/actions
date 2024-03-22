@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/eviden-actions/actions/compare/v1.3.0...v1.3.1) (2024-03-22)
+
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump dependabot/fetch-metadata from 1 to 2 ([#165](https://github.com/eviden-actions/actions/issues/165)) ([456393f](https://github.com/eviden-actions/actions/commit/456393fdbd5032bc16ed021f7a054f68a4956e88))
+
 ## [1.3.0](https://github.com/eviden-actions/actions/compare/v1.2.2...v1.3.0) (2023-04-19)
 
 
