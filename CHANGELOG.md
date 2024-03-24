@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/eviden-actions/actions/compare/v1.3.1...v1.3.2) (2024-03-24)
+
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump semantic-release from 23.0.5 to 23.0.6 ([#166](https://github.com/eviden-actions/actions/issues/166)) ([1d1ce38](https://github.com/eviden-actions/actions/commit/1d1ce38976d59f80a28f4999ee34116352199aba))
+
 ## [1.3.1](https://github.com/eviden-actions/actions/compare/v1.3.0...v1.3.1) (2024-03-22)
 
 
