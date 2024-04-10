@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/eviden-actions/actions/compare/v1.3.4...v1.3.5) (2024-04-10)
+
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump the npm_and_yarn group with 2 updates ([#170](https://github.com/eviden-actions/actions/issues/170)) ([48e089c](https://github.com/eviden-actions/actions/commit/48e089c5171c7b1677232f38320b56ae52dd7bbc))
+
 ## [1.3.4](https://github.com/eviden-actions/actions/compare/v1.3.3...v1.3.4) (2024-04-09)
 
 
