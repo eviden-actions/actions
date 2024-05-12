@@ -1,3 +1,13 @@
+## [1.3.6](https://github.com/eviden-actions/actions/compare/v1.3.5...v1.3.6) (2024-05-12)
+
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump @commitlint/cli from 19.2.1 to 19.2.2 ([#171](https://github.com/eviden-actions/actions/issues/171)) ([f6adbc9](https://github.com/eviden-actions/actions/commit/f6adbc965e1f20bf873bb0f17730af5769b1781b))
+* **deps-dev:** bump @commitlint/cli from 19.2.2 to 19.3.0 ([#173](https://github.com/eviden-actions/actions/issues/173)) ([e729fe0](https://github.com/eviden-actions/actions/commit/e729fe0c72616d7ab606f4cdfc65ae780bde67ac))
+* **deps-dev:** bump @commitlint/config-conventional from 19.1.0 to 19.2.2 ([#172](https://github.com/eviden-actions/actions/issues/172)) ([9867ae2](https://github.com/eviden-actions/actions/commit/9867ae2e5246d51b908486237ccda2e82a1bad05))
+* **deps:** bump semantic-release from 23.0.8 to 23.1.1 ([#174](https://github.com/eviden-actions/actions/issues/174)) ([045139a](https://github.com/eviden-actions/actions/commit/045139afed7b708ebdfafeb6e1f025853a0359c9))
+
 ## [1.3.5](https://github.com/eviden-actions/actions/compare/v1.3.4...v1.3.5) (2024-04-10)
 
 
