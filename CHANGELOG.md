@@ -1,3 +1,16 @@
+## [1.3.9](https://github.com/eviden-actions/actions/compare/v1.3.8...v1.3.9) (2024-08-18)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump @commitlint/cli from 19.3.0 to 19.4.0 in the commitlint group ([#186](https://github.com/eviden-actions/actions/issues/186)) ([62759e5](https://github.com/eviden-actions/actions/commit/62759e5abef23ec91e1ecd3bf13a2d07ba7b60f1))
+* **deps-dev:** bump husky from 9.0.11 to 9.1.0 ([#181](https://github.com/eviden-actions/actions/issues/181)) ([1bcec42](https://github.com/eviden-actions/actions/commit/1bcec42267b8e7996b8996df728be412c23511dc))
+* **deps-dev:** bump husky from 9.1.0 to 9.1.1 ([#182](https://github.com/eviden-actions/actions/issues/182)) ([341f118](https://github.com/eviden-actions/actions/commit/341f1182429b6455db73c0b7b63a918e6aab6ad7))
+* **deps-dev:** bump husky from 9.1.1 to 9.1.2 ([#183](https://github.com/eviden-actions/actions/issues/183)) ([a22331f](https://github.com/eviden-actions/actions/commit/a22331fe87344cf368625aaf80d43e801ccba5e3))
+* **deps-dev:** bump husky from 9.1.2 to 9.1.3 ([#184](https://github.com/eviden-actions/actions/issues/184)) ([2368b86](https://github.com/eviden-actions/actions/commit/2368b86390e3c81a87e56f54624a7c6d51729e27))
+* **deps-dev:** bump husky from 9.1.3 to 9.1.4 ([#185](https://github.com/eviden-actions/actions/issues/185)) ([3b0dcdf](https://github.com/eviden-actions/actions/commit/3b0dcdf28fb052791a5201c675c079f8921b19c8))
+* **deps-dev:** bump prettier from 3.3.2 to 3.3.3 ([#180](https://github.com/eviden-actions/actions/issues/180)) ([0c2fd00](https://github.com/eviden-actions/actions/commit/0c2fd000dc93e0e4550e1fe87c5a302dd9ec5152))
+* **deps:** bump semantic-release from 24.0.0 to 24.1.0 in the semantic-release group ([#187](https://github.com/eviden-actions/actions/issues/187)) ([1ca53d3](https://github.com/eviden-actions/actions/commit/1ca53d33e22de2ba4f7c1ef1876e56bd763dd8a7))
+
 ## [1.3.8](https://github.com/eviden-actions/actions/compare/v1.3.7...v1.3.8) (2024-06-11)
 
 ### Dependencies and Other Build Updates
