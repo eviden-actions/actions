@@ -1,3 +1,9 @@
+## [1.3.11](https://github.com/eviden-actions/actions/compare/v1.3.10...v1.3.11) (2024-08-28)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump micromatch from 4.0.5 to 4.0.8 ([#189](https://github.com/eviden-actions/actions/issues/189)) ([ed99c18](https://github.com/eviden-actions/actions/commit/ed99c181c07c68bef472f0eeb6ff9cca9cd57e01))
+
 ## [1.3.10](https://github.com/eviden-actions/actions/compare/v1.3.9...v1.3.10) (2024-08-28)
 
 ### Bug Fixes
