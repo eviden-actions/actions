@@ -1,3 +1,13 @@
+## [1.3.10](https://github.com/eviden-actions/actions/compare/v1.3.9...v1.3.10) (2024-08-28)
+
+### Bug Fixes
+
+* add missing permission for lint-pr ([c1d60f8](https://github.com/eviden-actions/actions/commit/c1d60f8de7fc03cc58ffd03105f9150431e0b4d1))
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump husky from 9.1.4 to 9.1.5 ([#188](https://github.com/eviden-actions/actions/issues/188)) ([f04af5b](https://github.com/eviden-actions/actions/commit/f04af5b86c02be03b013b0621ccaaaaa40286884))
+
 ## [1.3.9](https://github.com/eviden-actions/actions/compare/v1.3.8...v1.3.9) (2024-08-18)
 
 ### Dependencies and Other Build Updates
