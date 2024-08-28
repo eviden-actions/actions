@@ -1,3 +1,9 @@
+## [1.3.12](https://github.com/eviden-actions/actions/compare/v1.3.11...v1.3.12) (2024-08-28)
+
+### Bug Fixes
+
+* use semantic-release to update major version tag ([b39d994](https://github.com/eviden-actions/actions/commit/b39d99404144bd01ddb065bc357be0a8ff27022f))
+
 ## [1.3.11](https://github.com/eviden-actions/actions/compare/v1.3.10...v1.3.11) (2024-08-28)
 
 ### Dependencies and Other Build Updates
