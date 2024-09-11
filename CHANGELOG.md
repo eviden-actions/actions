@@ -1,3 +1,12 @@
+## [1.3.13](https://github.com/eviden-actions/actions/compare/v1.3.12...v1.3.13) (2024-09-11)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump husky from 9.1.5 to 9.1.6 ([#193](https://github.com/eviden-actions/actions/issues/193)) ([c200ced](https://github.com/eviden-actions/actions/commit/c200ced363679a3fd844df9ae51e1b112ff21c43))
+* **deps-dev:** bump the commitlint group with 2 updates ([#190](https://github.com/eviden-actions/actions/issues/190)) ([1c3bdbf](https://github.com/eviden-actions/actions/commit/1c3bdbfdd0362463bf4d160d96b3ba98ddb3a82d))
+* **deps-dev:** bump the commitlint group with 2 updates ([#191](https://github.com/eviden-actions/actions/issues/191)) ([615309c](https://github.com/eviden-actions/actions/commit/615309c2e1174de5236e37425e721d0fc5420446))
+* **deps:** bump semantic-release from 24.1.0 to 24.1.1 in the semantic-release group ([#192](https://github.com/eviden-actions/actions/issues/192)) ([5c80aa7](https://github.com/eviden-actions/actions/commit/5c80aa776250a328cf16e709eb306229f5a6704d))
+
 ## [1.3.12](https://github.com/eviden-actions/actions/compare/v1.3.11...v1.3.12) (2024-08-28)
 
 ### Bug Fixes
