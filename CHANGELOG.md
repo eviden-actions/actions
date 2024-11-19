@@ -1,3 +1,11 @@
+## [1.3.17](https://github.com/eviden-actions/actions/compare/v1.3.16...v1.3.17) (2024-11-19)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump husky from 9.1.6 to 9.1.7 ([#197](https://github.com/eviden-actions/actions/issues/197)) ([a362607](https://github.com/eviden-actions/actions/commit/a362607e257abd33ad57804ab74a5e989806ff80))
+* **deps-dev:** bump the commitlint group with 2 updates ([#198](https://github.com/eviden-actions/actions/issues/198)) ([00843a1](https://github.com/eviden-actions/actions/commit/00843a158059b972b59d4cfb57f8eba2fd277885))
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.6 ([#199](https://github.com/eviden-actions/actions/issues/199)) ([e35d6c5](https://github.com/eviden-actions/actions/commit/e35d6c54839b9bb96edacb5f3ae7d47735ef2cb1))
+
 ## [1.3.16](https://github.com/eviden-actions/actions/compare/v1.3.15...v1.3.16) (2024-10-27)
 
 ### Dependencies and Other Build Updates
