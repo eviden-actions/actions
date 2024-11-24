@@ -1,3 +1,9 @@
+## [1.3.18](https://github.com/eviden-actions/actions/compare/v1.3.17...v1.3.18) (2024-11-24)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump Namchee/conventional-pr from 0.15.4 to 0.15.5 ([#200](https://github.com/eviden-actions/actions/issues/200)) ([6c216f4](https://github.com/eviden-actions/actions/commit/6c216f4be58772999ec5cb7b2cc499df1f3766a7))
+
 ## [1.3.17](https://github.com/eviden-actions/actions/compare/v1.3.16...v1.3.17) (2024-11-19)
 
 ### Dependencies and Other Build Updates
