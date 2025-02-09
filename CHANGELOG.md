@@ -1,3 +1,11 @@
+## [1.3.21](https://github.com/eviden-actions/actions/compare/v1.3.20...v1.3.21) (2025-02-09)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.4.2 to 3.5.0 ([#208](https://github.com/eviden-actions/actions/issues/208)) ([d9b1ba8](https://github.com/eviden-actions/actions/commit/d9b1ba8eb171a356fda1da441b3a6f3912a9a3c5))
+* **deps-dev:** bump the commitlint group with 2 updates ([#206](https://github.com/eviden-actions/actions/issues/206)) ([2e57d42](https://github.com/eviden-actions/actions/commit/2e57d421eac8315a0c2d65d12dfc2f6ee08e431f))
+* **deps:** bump semantic-release from 24.2.1 to 24.2.2 in the semantic-release group ([#207](https://github.com/eviden-actions/actions/issues/207)) ([843c6c2](https://github.com/eviden-actions/actions/commit/843c6c29649c364b9b2702ab2a9f9d59ca856570))
+
 ## [1.3.20](https://github.com/eviden-actions/actions/compare/v1.3.19...v1.3.20) (2025-01-14)
 
 ### Dependencies and Other Build Updates
