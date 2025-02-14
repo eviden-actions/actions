@@ -1,3 +1,10 @@
+## [1.3.22](https://github.com/eviden-actions/actions/compare/v1.3.21...v1.3.22) (2025-02-14)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.5.0 to 3.5.1 ([#209](https://github.com/eviden-actions/actions/issues/209)) ([e4798ef](https://github.com/eviden-actions/actions/commit/e4798efe1b0a2e893fc051416dd7d8b2ab07a2c2))
+* **deps:** bump @octokit/endpoint from 10.1.1 to 10.1.3 ([#210](https://github.com/eviden-actions/actions/issues/210)) ([d38b876](https://github.com/eviden-actions/actions/commit/d38b87699b16bfe825ac107daededa0d388b936c))
+
 ## [1.3.21](https://github.com/eviden-actions/actions/compare/v1.3.20...v1.3.21) (2025-02-09)
 
 ### Dependencies and Other Build Updates
