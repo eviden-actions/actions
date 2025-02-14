@@ -1,3 +1,11 @@
+## [1.3.23](https://github.com/eviden-actions/actions/compare/v1.3.22...v1.3.23) (2025-02-14)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump @octokit/plugin-paginate-rest from 11.3.5 to 11.4.2 ([#213](https://github.com/eviden-actions/actions/issues/213)) ([070a9e8](https://github.com/eviden-actions/actions/commit/070a9e8db31a368560bd2f13521c1128d29de645))
+* **deps:** bump @octokit/request from 9.1.3 to 9.2.1 ([#212](https://github.com/eviden-actions/actions/issues/212)) ([e8824d7](https://github.com/eviden-actions/actions/commit/e8824d79c6e48f71ef7f27afb8f6ff5073f3c950))
+* **deps:** bump @octokit/request-error from 6.1.5 to 6.1.7 ([#211](https://github.com/eviden-actions/actions/issues/211)) ([0093978](https://github.com/eviden-actions/actions/commit/009397895b277d582b65f7d5490c54fe0d6b2b3b))
+
 ## [1.3.22](https://github.com/eviden-actions/actions/compare/v1.3.21...v1.3.22) (2025-02-14)
 
 ### Dependencies and Other Build Updates
