@@ -1,3 +1,11 @@
+## [1.3.25](https://github.com/eviden-actions/actions/compare/v1.3.24...v1.3.25) (2025-03-04)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.5.1 to 3.5.2 ([#215](https://github.com/eviden-actions/actions/issues/215)) ([71147f2](https://github.com/eviden-actions/actions/commit/71147f2856abcffe22374ef8e5bcbcda7b8485d2))
+* **deps-dev:** bump prettier from 3.5.2 to 3.5.3 ([#216](https://github.com/eviden-actions/actions/issues/216)) ([67e81cf](https://github.com/eviden-actions/actions/commit/67e81cf26cdcb24a2e62a6d4387e6ff118f64048))
+* **deps:** bump pretty-quick from 4.0.0 to 4.1.1 ([#217](https://github.com/eviden-actions/actions/issues/217)) ([91127f7](https://github.com/eviden-actions/actions/commit/91127f7738737ffa5a95ef92060c3046b7f4c42f))
+
 ## [1.3.24](https://github.com/eviden-actions/actions/compare/v1.3.23...v1.3.24) (2025-02-16)
 
 ### Dependencies and Other Build Updates
