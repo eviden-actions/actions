@@ -25,13 +25,18 @@ jobs:
 
 | Action            | Description                                     | Args |
 | ----------------- | ----------------------------------------------- | :--: |
-| `cancel-workflow` | Cancels previous instances of the same workflow |  No  |
-| `dependabot`      | Automatically merge and approve dependabot PR   | Yes  |
+| `cancel-workflow` | ⚠️ DEPRECATED: Cancels previous instances of the same workflow |  No  |
+| `dependabot`      | ⚠️ DEPRECATED: Automatically merge and approve dependabot PR   | Yes  |
 | `lint-code`       | Check code style and coding guidelines          |  No  |
 | `lint-pr`         | Check PR is matching contributing guidelines    |  No  |
 | `release`         | Release a new version with semantical release   | Yes  |
 
 ### Dependabot
+
+> [!WARNING]
+> The `dependabot` actions is deprecated and will be removed in the future.
+> It is being replaced though the AutoMate app on the organization level.
+> You can remove the `dependabot` action from your workflow.
 
 Arguments for the `dependabot` action:
 
