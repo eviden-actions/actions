@@ -24,8 +24,7 @@ jobs:
       - name: warning
         shell: bash
         run: |
-          echo "::warning title=Deprecated::Dependabot automation workflow is being replaced through AutoMate Appn you can remove this call from your workflow"
-
+          echo "::warning title=Deprecated::Dependabot automation workflow is being replaced through AutoMate App you can remove this call from your workflow"
       # - name: Dependabot metadata
       #   id: metadata
       #   uses: dependabot/fetch-metadata@v2

@@ -34,8 +34,8 @@ jobs:
 ### Dependabot
 
 > [!WARNING]
-> The `dependabot` actions is deprecated and will be removed in the future.
-> It is being replaced though the AutoMate app on the organization level.
+> The `dependabot` action is deprecated and will be removed in the future.
+> It is being replaced through the AutoMate app on the organization level.
 > You can remove the `dependabot` action from your workflow.
 
 Arguments for the `dependabot` action:

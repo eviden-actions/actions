@@ -1,4 +1,4 @@
-# This is workflow runs on push
+# This workflow runs on workflow_run event
 #
 name: Checks Completed
 
