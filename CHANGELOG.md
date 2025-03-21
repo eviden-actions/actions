@@ -1,3 +1,17 @@
+## [2.0.0](https://github.com/eviden-actions/actions/compare/v1.3.25...v2.0.0) (2025-03-21)
+
+### ⚠ BREAKING CHANGES
+
+* dependabot workflow is no longer taking action
+
+### Features
+
+* modernize workflows ([#219](https://github.com/eviden-actions/actions/issues/219)) ([cf2bbb2](https://github.com/eviden-actions/actions/commit/cf2bbb2b29fbd7fba5ed3ce13575a1896449d7bb))
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump the commitlint group with 2 updates ([#218](https://github.com/eviden-actions/actions/issues/218)) ([d431d40](https://github.com/eviden-actions/actions/commit/d431d40e1e0a449d8a7a911281bc026b40d8bf35))
+
 ## [1.3.25](https://github.com/eviden-actions/actions/compare/v1.3.24...v1.3.25) (2025-03-04)
 
 ### Dependencies and Other Build Updates
