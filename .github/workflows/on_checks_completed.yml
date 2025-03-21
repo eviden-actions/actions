@@ -1,0 +1,29 @@
+# This workflow runs on workflow_run event
+#
+name: Checks Completed
+
+# Controls when the action will run.
+on:
+  workflow_run:
+    workflows: [Checks]
+    types: [completed]
+    branches: [main, next, beta, alpha]
+
+concurrency:
+  group: ${{ github.workflow }}_${{ github.event.workflow_run.head_branch || github.ref_name || github.run_id }}
+  cancel-in-progress: true
+
+# Declare default permissions as read only.
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: '▶️ actions'
+    uses: ./.github/workflows/release.yml
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
+
+    permissions:
+      contents: write
+      packages: write
