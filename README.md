@@ -23,13 +23,13 @@ jobs:
 
 ## Actions
 
-| Action            | Description                                     | Args |
-| ----------------- | ----------------------------------------------- | :--: |
+| Action            | Description                                                    | Args |
+| ----------------- | -------------------------------------------------------------- | :--: |
 | `cancel-workflow` | ⚠️ DEPRECATED: Cancels previous instances of the same workflow |  No  |
 | `dependabot`      | ⚠️ DEPRECATED: Automatically merge and approve dependabot PR   | Yes  |
-| `lint-code`       | Check code style and coding guidelines          |  No  |
-| `lint-pr`         | Check PR is matching contributing guidelines    |  No  |
-| `release`         | Release a new version with semantical release   | Yes  |
+| `lint-code`       | Check code style and coding guidelines                         |  No  |
+| `lint-pr`         | Check PR is matching contributing guidelines                   |  No  |
+| `release`         | Release a new version with semantical release                  | Yes  |
 
 ### Dependabot
 

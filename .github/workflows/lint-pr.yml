@@ -5,7 +5,7 @@ name: Lint Pull Request
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    
+
   # Allows you to call this workflow from other workflows
   workflow_call:
 
