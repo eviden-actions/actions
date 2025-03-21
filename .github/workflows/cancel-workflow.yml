@@ -13,4 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: warning
+        shell: bash
+        run: |
+          echo "::warning title=Deprecated::Cancel Workflow is deprecated. Use [concurrency](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency) instead"
+
       - uses: styfle/cancel-workflow-action@0.12.1
