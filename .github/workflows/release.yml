@@ -12,6 +12,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+
+# Declare default permissions as read only.
+permissions:
+  contents: read
+
 jobs:
   release:
     name: '🏷️ Release'
@@ -23,6 +28,10 @@ jobs:
 
     outputs:
       version: ${{ steps.release.outputs.version }}
+
+    permissions:
+      contents: write
+      packages: write
 
     steps:
       - name: '☁️ Checkout repository'
