@@ -1,3 +1,9 @@
+## [2.0.6](https://github.com/eviden-actions/actions/compare/v2.0.5...v2.0.6) (2025-08-12)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump actions/checkout from 4 to 5 ([#229](https://github.com/eviden-actions/actions/issues/229)) ([736a0c5](https://github.com/eviden-actions/actions/commit/736a0c55d5be3b254c81d8ad93b92f68dd54413a))
+
 ## [2.0.5](https://github.com/eviden-actions/actions/compare/v2.0.4...v2.0.5) (2025-07-13)
 
 ### Dependencies and Other Build Updates
