@@ -1,3 +1,9 @@
+## [2.0.7](https://github.com/eviden-actions/actions/compare/v2.0.6...v2.0.7) (2025-09-05)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump actions/setup-node from 4 to 5 ([#230](https://github.com/eviden-actions/actions/issues/230)) ([72f3ab9](https://github.com/eviden-actions/actions/commit/72f3ab9dfeafba4164123f98f1aa71dfdfc96019))
+
 ## [2.0.6](https://github.com/eviden-actions/actions/compare/v2.0.5...v2.0.6) (2025-08-12)
 
 ### Dependencies and Other Build Updates
