@@ -1,3 +1,11 @@
+## [2.0.10](https://github.com/eviden-actions/actions/compare/v2.0.9...v2.0.10) (2025-10-15)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump @commitlint/cli from 20.0.0 to 20.1.0 in the commitlint group ([#234](https://github.com/eviden-actions/actions/issues/234)) ([39a3854](https://github.com/eviden-actions/actions/commit/39a38543073a803f4684c7e7e1c1516d3d59c6b1))
+* **deps-dev:** bump the commitlint group with 2 updates ([#233](https://github.com/eviden-actions/actions/issues/233)) ([7251541](https://github.com/eviden-actions/actions/commit/7251541d70e46f11529c9ee72f5298bd71a84735))
+* **deps:** bump actions/setup-node from 5 to 6 ([#235](https://github.com/eviden-actions/actions/issues/235)) ([59698fe](https://github.com/eviden-actions/actions/commit/59698fe0513c6fc7aae7713592290f3c33956f2d))
+
 ## [2.0.9](https://github.com/eviden-actions/actions/compare/v2.0.8...v2.0.9) (2025-09-21)
 
 ### Dependencies and Other Build Updates
