@@ -1,3 +1,9 @@
+## [2.0.11](https://github.com/eviden-actions/actions/compare/v2.0.10...v2.0.11) (2025-10-16)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump semantic-release from 24.2.9 to 25.0.0 in the semantic-release group ([#236](https://github.com/eviden-actions/actions/issues/236)) ([63992a1](https://github.com/eviden-actions/actions/commit/63992a11b0ddb71ac59aecfc91abe9808fe30889))
+
 ## [2.0.10](https://github.com/eviden-actions/actions/compare/v2.0.9...v2.0.10) (2025-10-15)
 
 ### Dependencies and Other Build Updates
