@@ -1,3 +1,9 @@
+## [2.0.14](https://github.com/eviden-actions/actions/compare/v2.0.13...v2.0.14) (2025-11-15)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#239](https://github.com/eviden-actions/actions/issues/239)) ([cba0034](https://github.com/eviden-actions/actions/commit/cba0034f066c656f030db045df30cc2390af9f51))
+
 ## [2.0.13](https://github.com/eviden-actions/actions/compare/v2.0.12...v2.0.13) (2025-11-09)
 
 ### Dependencies and Other Build Updates
