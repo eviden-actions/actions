@@ -1,3 +1,10 @@
+## [2.0.16](https://github.com/eviden-actions/actions/compare/v2.0.15...v2.0.16) (2025-11-28)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.6.2 to 3.7.1 ([#241](https://github.com/eviden-actions/actions/issues/241)) ([d19a4c1](https://github.com/eviden-actions/actions/commit/d19a4c1c40d85146b378cece3aee138f0f16ab5c))
+* **deps:** bump glob and npm ([#242](https://github.com/eviden-actions/actions/issues/242)) ([37771d2](https://github.com/eviden-actions/actions/commit/37771d2fa7b50b5502aaf3490f2c66ac7e099ec3))
+
 ## [2.0.15](https://github.com/eviden-actions/actions/compare/v2.0.14...v2.0.15) (2025-11-21)
 
 ### Dependencies and Other Build Updates
