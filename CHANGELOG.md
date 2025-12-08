@@ -1,3 +1,15 @@
+## [3.0.0](https://github.com/eviden-actions/actions/compare/v2.1.0...v3.0.0) (2025-12-08)
+
+### ⚠ BREAKING CHANGES
+
+* remove deprecated cancel-workflow workflow
+* remove dependabot workflow
+* release workflow needs RELEASE_APP_ID & RELEASE_APP_PRIVATE_KEY instead of GH_TOKEN
+
+### Features
+
+* improve release workflow security ([#248](https://github.com/eviden-actions/actions/issues/248)) ([4611c05](https://github.com/eviden-actions/actions/commit/4611c059359712b5b169626a493045b9c7071dda))
+
 ## [2.1.0](https://github.com/eviden-actions/actions/compare/v2.0.16...v2.1.0) (2025-12-08)
 
 ### Features
