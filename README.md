@@ -2,7 +2,7 @@
 
 Reusable actions for the eviden-actions organization.
 
-[![Release](https://github.com/eviden-actions/actions/actions/workflows/on_push.yml/badge.svg)](https://github.com/eviden-actions/actions/actions/workflows/on_push.yml)
+[![Release](https://github.com/eviden-actions/actions/actions/workflows/release.yml/badge.svg)](https://github.com/eviden-actions/actions/actions/workflows/release.yml)
 
 ## Usage
 
