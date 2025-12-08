@@ -22,8 +22,8 @@ jobs:
     name: '▶️ actions'
     uses: ./.github/workflows/release.yml
     secrets:
-      RELEASE_APP_ID: ${{ secrets.RELEASE_APP_ID  }}
-      RELEASE_APP_PRIVATE_KEY: ${{ secrets.RELEASE_APP_PRIVATE_KEY  }}
+      RELEASE_APP_ID: ${{ secrets.RELEASE_APP_ID }}
+      RELEASE_APP_PRIVATE_KEY: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
 
     permissions:
       contents: write

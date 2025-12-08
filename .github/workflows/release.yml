@@ -11,9 +11,6 @@ on:
       RELEASE_APP_PRIVATE_KEY:
         required: true
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # Declare default permissions as read only.
 permissions:
   contents: read
