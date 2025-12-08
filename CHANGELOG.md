@@ -1,3 +1,15 @@
+## [2.1.0](https://github.com/eviden-actions/actions/compare/v2.0.16...v2.1.0) (2025-12-08)
+
+### Features
+
+* add dependency review workflow ([#247](https://github.com/eviden-actions/actions/issues/247)) ([405476b](https://github.com/eviden-actions/actions/commit/405476b19045d344b6e5f7cfe8a6945917a30afd))
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.7.1 to 3.7.3 ([#243](https://github.com/eviden-actions/actions/issues/243)) ([f671f33](https://github.com/eviden-actions/actions/commit/f671f338f418a78ae6517f2c9b1f11e56909f610))
+* **deps-dev:** bump prettier from 3.7.3 to 3.7.4 ([#244](https://github.com/eviden-actions/actions/issues/244)) ([8e14189](https://github.com/eviden-actions/actions/commit/8e141899f8630ed7e80e006a56e92361f0e1da3a))
+* **deps-dev:** bump the commitlint group with 2 updates ([#245](https://github.com/eviden-actions/actions/issues/245)) ([36740e2](https://github.com/eviden-actions/actions/commit/36740e268ba31f0579765985cb2b9ff1221ecd08))
+
 ## [2.0.16](https://github.com/eviden-actions/actions/compare/v2.0.15...v2.0.16) (2025-11-28)
 
 ### Dependencies and Other Build Updates

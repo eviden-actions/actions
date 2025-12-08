@@ -24,11 +24,17 @@ jobs:
 
 ## Actions
 
-| Action      | Description                                   | Args |
-| ----------- | --------------------------------------------- | :--: |
-| `lint-code` | Check code style and coding guidelines        |  No  |
-| `lint-pr`   | Check PR is matching contributing guidelines  |  No  |
-| `release`   | Release a new version with semantical release | Yes  |
+| Action         | Description                                                 | Args |
+| -------------- | ----------------------------------------------------------- | :--: |
+| `dependencies` | Check dependencies for known vulnerabilities and signatures |  No  |
+| `lint-code`    | Check code style and coding guidelines                      |  No  |
+| `lint-pr`      | Check PR is matching contributing guidelines                |  No  |
+| `release`      | Release a new version with semantical release               | Yes  |
+
+### Dependencies
+
+Dependencies action checks for known vulnerabilities and signatures in your dependencies.
+This workflow is configured by ruleset to run on all pull requests in all eviden-actions repositories.
 
 ### Release
 
