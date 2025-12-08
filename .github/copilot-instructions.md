@@ -18,7 +18,7 @@
 
 - Always use [Conventional Commits](https://www.conventionalcommits.org/) format.
 - Format: `type(scope): description`
-- Select a type based on the nature of the change folliwing [Conventional Commits definition](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type).
+- Select a type based on the nature of the change following [Conventional Commits definition](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type).
 - Use imperative mood (e.g., "fix bug", not "fixed bug").
 - Follow the rules configured in commitlint.config.js
 - Include scope when relevant (e.g., api, ui, auth).
