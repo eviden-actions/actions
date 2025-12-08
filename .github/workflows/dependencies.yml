@@ -8,6 +8,10 @@ on:
   # Allows you to call this workflow from other workflows
   workflow_call:
 
+concurrency:
+  group: ${{ github.workflow }}_${{ github.head_ref || github.ref || github.run_id }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
