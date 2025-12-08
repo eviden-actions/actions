@@ -39,6 +39,3 @@ jobs:
           strict: false
           message: |
             This Pull Request doesn't follow the [contributing guidelines](https://github.com/eviden-actions/.github/blob/main/CONTRIBUTING.md#pull-requests)
-
-      - name: '🧹 Cleanup workspace'
-        uses: eviden-actions/clean-self-hosted-runner@v1

@@ -67,6 +67,3 @@ jobs:
         run: |
           npm run release
           echo "version=$(npm run env | grep npm_package_version | cut -d '=' -f 2)" >> $GITHUB_OUTPUT
-
-      - name: '🧹 Cleanup workspace'
-        uses: eviden-actions/clean-self-hosted-runner@v1
