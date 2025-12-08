@@ -18,7 +18,8 @@ jobs:
     needs: [validate]
     uses: eviden-actions/actions/.github/workflows/release.yml@v1
     secrets:
-      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
+      RELEASE_APP_ID: ${{ secrets.RELEASE_APP_ID }}
+      RELEASE_APP_PRIVATE_KEY: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
 ```
 
 ## Actions
@@ -33,6 +34,7 @@ jobs:
 
 Arguments for the `release` action:
 
-| Secrets    | Description                               | Required |
-| ---------- | ----------------------------------------- | :------: |
-| `GH_TOKEN` | Add a code owner PT on protected branches |    No    |
+| Secrets                   | Description                             | Required |
+| ------------------------- | --------------------------------------- | :------: |
+| `RELEASE_APP_ID`          | The App ID of the Atos Release App      |   Yes    |
+| `RELEASE_APP_PRIVATE_KEY` | The private key of the Atos Release App |   Yes    |

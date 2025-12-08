@@ -6,8 +6,10 @@ on:
   # Allows you to call this workflow from other workflows
   workflow_call:
     secrets:
-      GH_TOKEN:
-        required: false
+      RELEASE_APP_ID:
+        required: true
+      RELEASE_APP_PRIVATE_KEY:
+        required: true
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,11 +35,20 @@ jobs:
       packages: write
 
     steps:
+      - name: '🔐 Generate GitHub App Token'
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.RELEASE_APP_ID }}
+          private-key: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
+
       - name: '☁️ Checkout repository'
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          persist-credentials: false
+          token: ${{ steps.app-token.outputs.token }}
+          # Use GitHub App token to bypass branch protection/rulesets
+          # App must be in the bypass list of repository rulesets
 
       - name: '⚙️ Use Node.js'
         uses: actions/setup-node@v6
@@ -52,8 +63,9 @@ jobs:
       - name: '📦 Release'
         id: release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }} # Needed to push to GitHub
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          # Use GitHub App token for semantic-release operations
+          # App must have Contents: write permission and be in bypass list
           HUSKY: 0 # disable pre-commit hooks
         run: |
           npm run release
