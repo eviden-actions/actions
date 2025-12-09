@@ -1,3 +1,9 @@
+## [3.0.1](https://github.com/eviden-actions/actions/compare/v3.0.0...v3.0.1) (2025-12-09)
+
+### Bug Fixes
+
+* remove cleanup steps from lint workflows ([#250](https://github.com/eviden-actions/actions/issues/250)) ([6d2ccea](https://github.com/eviden-actions/actions/commit/6d2cceabd3322e68b9eea0f6bfc9053c00fd8a52))
+
 ## [3.0.0](https://github.com/eviden-actions/actions/compare/v2.1.0...v3.0.0) (2025-12-08)
 
 ### ⚠ BREAKING CHANGES
