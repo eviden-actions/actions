@@ -37,6 +37,3 @@ jobs:
 
       - name: '✅ Lint code'
         run: npm run lint
-
-      - name: '🧹 Cleanup workspace'
-        uses: eviden-actions/clean-self-hosted-runner@v1
