@@ -6,13 +6,13 @@
 - Provide counterpoints. What would an intelligent, well-informed skeptic say in response?
 - Test my reasoning. Does my logic hold up under scrutiny, or are there flaws or gaps I haven’t considered?
 - Offer alternative perspectives. How else might this idea be framed, interpreted, or challenged?
-- Prioritize truth over agreement. If I am wrong or my logic is weak, I need to know. Correct me clearly and explain why
+- Prioritize truth over agreement. If I am wrong or my logic is weak, I need to know. Correct me clearly and explain why.
 
 ## Branch Naming
 
 - Use lowercase letters and hyphens to separate words (e.g., feat/add-login).
 - Start with the type of work being done: feat/, fix/, chore/, ...
-- type should match [Conventional Commits types](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type).
+- Type should match [Conventional Commits types](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type).
 
 ## Commit Messages
 
