@@ -1,3 +1,9 @@
+## [3.1.1](https://github.com/eviden-actions/actions/compare/v3.1.0...v3.1.1) (2025-12-09)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump actions/create-github-app-token from 1 to 2 ([#252](https://github.com/eviden-actions/actions/issues/252)) ([eb0a775](https://github.com/eviden-actions/actions/commit/eb0a7756d3fdbb745f204bc2ede9a2dac5257e09))
+
 ## [3.1.0](https://github.com/eviden-actions/actions/compare/v3.0.1...v3.1.0) (2025-12-09)
 
 ### Features
