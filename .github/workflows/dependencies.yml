@@ -47,3 +47,16 @@ jobs:
 
       - name: '🔏 Audit NPM dependencies signatures'
         run: npm audit signatures
+
+  security-check:
+    name: '🕵️ Security Checks'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: '☁️ Checkout repository'
+        uses: actions/checkout@v6
+
+      - name: '🦠 Shai-Hulud Check'
+        uses: gensecaihq/Shai-Hulud-2.0-Detector@v2.0.0
+        with:
+          fail-on-critical: true
