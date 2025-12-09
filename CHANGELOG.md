@@ -1,3 +1,9 @@
+## [3.1.0](https://github.com/eviden-actions/actions/compare/v3.0.1...v3.1.0) (2025-12-09)
+
+### Features
+
+* enable signed commits and tags in release workflow ([#249](https://github.com/eviden-actions/actions/issues/249)) ([314f289](https://github.com/eviden-actions/actions/commit/314f28940d9caf0f48629478336ff1157d184754))
+
 ## [3.0.1](https://github.com/eviden-actions/actions/compare/v3.0.0...v3.0.1) (2025-12-09)
 
 ### Bug Fixes
