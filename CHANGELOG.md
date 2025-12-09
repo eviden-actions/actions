@@ -1,3 +1,9 @@
+## [3.2.0](https://github.com/eviden-actions/actions/compare/v3.1.1...v3.2.0) (2025-12-09)
+
+### Features
+
+* add security check job with Shai-Hulud detector ([#254](https://github.com/eviden-actions/actions/issues/254)) ([aeedb40](https://github.com/eviden-actions/actions/commit/aeedb40fb65bb349b32545ef7040d4f8b7471d54))
+
 ## [3.1.1](https://github.com/eviden-actions/actions/compare/v3.1.0...v3.1.1) (2025-12-09)
 
 ### Dependencies and Other Build Updates
