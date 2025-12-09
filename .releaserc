@@ -63,7 +63,9 @@
 					"CHANGELOG.md",
 					"package.json",
 					"package-lock.json"
-				]
+				],
+				"signCommit": true,
+				"signTag": true
 			}
 		],
 		[

@@ -1,3 +1,15 @@
+## [3.1.0](https://github.com/eviden-actions/actions/compare/v3.0.1...v3.1.0) (2025-12-09)
+
+### Features
+
+* enable signed commits and tags in release workflow ([#249](https://github.com/eviden-actions/actions/issues/249)) ([314f289](https://github.com/eviden-actions/actions/commit/314f28940d9caf0f48629478336ff1157d184754))
+
+## [3.0.1](https://github.com/eviden-actions/actions/compare/v3.0.0...v3.0.1) (2025-12-09)
+
+### Bug Fixes
+
+* remove cleanup steps from lint workflows ([#250](https://github.com/eviden-actions/actions/issues/250)) ([6d2ccea](https://github.com/eviden-actions/actions/commit/6d2cceabd3322e68b9eea0f6bfc9053c00fd8a52))
+
 ## [3.0.0](https://github.com/eviden-actions/actions/compare/v2.1.0...v3.0.0) (2025-12-08)
 
 ### ⚠ BREAKING CHANGES
