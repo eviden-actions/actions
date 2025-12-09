@@ -1,3 +1,9 @@
+## [3.2.1](https://github.com/eviden-actions/actions/compare/v3.2.0...v3.2.1) (2025-12-09)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump gensecaihq/Shai-Hulud-2.0-Detector from 2.0.0 to 2.0.1 ([#255](https://github.com/eviden-actions/actions/issues/255)) ([8148729](https://github.com/eviden-actions/actions/commit/81487293f088d86c9d4ea7cb80e0b759649ee427))
+
 ## [3.2.0](https://github.com/eviden-actions/actions/compare/v3.1.1...v3.2.0) (2025-12-09)
 
 ### Features
